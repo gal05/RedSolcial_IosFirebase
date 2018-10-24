@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C8CABEE543E2013AF23B196 /* Pods_RedSolcial_IosFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238CFD4F964D6334213843AF /* Pods_RedSolcial_IosFirebase.framework */; };
 		8689B183218112BF00B0FE9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8689B182218112BF00B0FE9E /* AppDelegate.swift */; };
-		8689B185218112BF00B0FE9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8689B184218112BF00B0FE9E /* ViewController.swift */; };
+		8689B185218112BF00B0FE9E /* IniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8689B184218112BF00B0FE9E /* IniciarSesionViewController.swift */; };
 		8689B188218112BF00B0FE9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8689B186218112BF00B0FE9E /* Main.storyboard */; };
 		8689B18B218112BF00B0FE9E /* RedSolcial_IosFirebase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8689B189218112BF00B0FE9E /* RedSolcial_IosFirebase.xcdatamodeld */; };
 		8689B18D218112BF00B0FE9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8689B18C218112BF00B0FE9E /* Assets.xcassets */; };
@@ -23,7 +23,7 @@
 		5C7497270F9DABE51BA197A4 /* Pods-RedSolcial_IosFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSolcial_IosFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedSolcial_IosFirebase/Pods-RedSolcial_IosFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		8689B17F218112BF00B0FE9E /* RedSolcial_IosFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedSolcial_IosFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8689B182218112BF00B0FE9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8689B184218112BF00B0FE9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8689B184218112BF00B0FE9E /* IniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionViewController.swift; sourceTree = "<group>"; };
 		8689B187218112BF00B0FE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8689B18A218112BF00B0FE9E /* RedSolcial_IosFirebase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RedSolcial_IosFirebase.xcdatamodel; sourceTree = "<group>"; };
 		8689B18C218112BF00B0FE9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				8689B182218112BF00B0FE9E /* AppDelegate.swift */,
-				8689B184218112BF00B0FE9E /* ViewController.swift */,
+				8689B184218112BF00B0FE9E /* IniciarSesionViewController.swift */,
 				8689B186218112BF00B0FE9E /* Main.storyboard */,
 				8689B18C218112BF00B0FE9E /* Assets.xcassets */,
 				8689B18E218112BF00B0FE9E /* LaunchScreen.storyboard */,
@@ -210,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8689B185218112BF00B0FE9E /* ViewController.swift in Sources */,
+				8689B185218112BF00B0FE9E /* IniciarSesionViewController.swift in Sources */,
 				8689B183218112BF00B0FE9E /* AppDelegate.swift in Sources */,
 				8689B18B218112BF00B0FE9E /* RedSolcial_IosFirebase.xcdatamodeld in Sources */,
 			);
