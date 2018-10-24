@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C8CABEE543E2013AF23B196 /* Pods_RedSolcial_IosFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238CFD4F964D6334213843AF /* Pods_RedSolcial_IosFirebase.framework */; };
 		8689B183218112BF00B0FE9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8689B182218112BF00B0FE9E /* AppDelegate.swift */; };
 		8689B185218112BF00B0FE9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8689B184218112BF00B0FE9E /* ViewController.swift */; };
 		8689B188218112BF00B0FE9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8689B186218112BF00B0FE9E /* Main.storyboard */; };
 		8689B18B218112BF00B0FE9E /* RedSolcial_IosFirebase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8689B189218112BF00B0FE9E /* RedSolcial_IosFirebase.xcdatamodeld */; };
 		8689B18D218112BF00B0FE9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8689B18C218112BF00B0FE9E /* Assets.xcassets */; };
 		8689B190218112BF00B0FE9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8689B18E218112BF00B0FE9E /* LaunchScreen.storyboard */; };
+		8689B198218114D700B0FE9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8689B197218114D700B0FE9E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		238CFD4F964D6334213843AF /* Pods_RedSolcial_IosFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedSolcial_IosFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD33E7821466287CC4968E8 /* Pods-RedSolcial_IosFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSolcial_IosFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedSolcial_IosFirebase/Pods-RedSolcial_IosFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		5C7497270F9DABE51BA197A4 /* Pods-RedSolcial_IosFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSolcial_IosFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedSolcial_IosFirebase/Pods-RedSolcial_IosFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		8689B17F218112BF00B0FE9E /* RedSolcial_IosFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedSolcial_IosFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8689B182218112BF00B0FE9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8689B184218112BF00B0FE9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		8689B18C218112BF00B0FE9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8689B18F218112BF00B0FE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8689B191218112BF00B0FE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8689B197218114D700B0FE9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8CABEE543E2013AF23B196 /* Pods_RedSolcial_IosFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				8689B181218112BF00B0FE9E /* RedSolcial_IosFirebase */,
 				8689B180218112BF00B0FE9E /* Products */,
+				D7E83CF1F0B2EA928FB247F8 /* Pods */,
+				8B95BF9373FF98FD106867EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +71,27 @@
 				8689B18C218112BF00B0FE9E /* Assets.xcassets */,
 				8689B18E218112BF00B0FE9E /* LaunchScreen.storyboard */,
 				8689B191218112BF00B0FE9E /* Info.plist */,
+				8689B197218114D700B0FE9E /* GoogleService-Info.plist */,
 				8689B189218112BF00B0FE9E /* RedSolcial_IosFirebase.xcdatamodeld */,
 			);
 			path = RedSolcial_IosFirebase;
+			sourceTree = "<group>";
+		};
+		8B95BF9373FF98FD106867EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				238CFD4F964D6334213843AF /* Pods_RedSolcial_IosFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7E83CF1F0B2EA928FB247F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C7497270F9DABE51BA197A4 /* Pods-RedSolcial_IosFirebase.debug.xcconfig */,
+				2DD33E7821466287CC4968E8 /* Pods-RedSolcial_IosFirebase.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8689B194218112BF00B0FE9E /* Build configuration list for PBXNativeTarget "RedSolcial_IosFirebase" */;
 			buildPhases = (
+				12B5C8947A3516B593BDB0AE /* [CP] Check Pods Manifest.lock */,
 				8689B17B218112BF00B0FE9E /* Sources */,
 				8689B17C218112BF00B0FE9E /* Frameworks */,
 				8689B17D218112BF00B0FE9E /* Resources */,
+				2BCF8068F53BD4D106AEA2BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,12 +156,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				8689B190218112BF00B0FE9E /* LaunchScreen.storyboard in Resources */,
+				8689B198218114D700B0FE9E /* GoogleService-Info.plist in Resources */,
 				8689B18D218112BF00B0FE9E /* Assets.xcassets in Resources */,
 				8689B188218112BF00B0FE9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12B5C8947A3516B593BDB0AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedSolcial_IosFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BCF8068F53BD4D106AEA2BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RedSolcial_IosFirebase/Pods-RedSolcial_IosFirebase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedSolcial_IosFirebase/Pods-RedSolcial_IosFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8689B17B218112BF00B0FE9E /* Sources */ = {
@@ -276,6 +347,7 @@
 		};
 		8689B195218112BF00B0FE9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7497270F9DABE51BA197A4 /* Pods-RedSolcial_IosFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +363,7 @@
 		};
 		8689B196218112BF00B0FE9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD33E7821466287CC4968E8 /* Pods-RedSolcial_IosFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
