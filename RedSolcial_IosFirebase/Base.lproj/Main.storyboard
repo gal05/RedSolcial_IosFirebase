@@ -105,10 +105,27 @@
         <scene sceneID="2ib-CO-CyP">
             <objects>
                 <viewController id="LrO-xx-sDt" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="RoO-fZ-rAt">
+                    <view key="view" contentMode="scaleAspectFit" id="RoO-fZ-rAt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6cF-Kz-nCp">
+                                <rect key="frame" x="67" y="84" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BD8-RT-UjY">
+                                <rect key="frame" x="131" y="299" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6cF-Kz-nCp" firstAttribute="centerY" secondItem="RoO-fZ-rAt" secondAttribute="centerY" id="HiN-f3-8z6"/>
+                            <constraint firstItem="6cF-Kz-nCp" firstAttribute="centerX" secondItem="RoO-fZ-rAt" secondAttribute="centerX" id="q2X-aU-212"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="CnP-wd-4SK"/>
                     </view>
                     <navigationItem key="navigationItem" id="qBK-if-ufi">
