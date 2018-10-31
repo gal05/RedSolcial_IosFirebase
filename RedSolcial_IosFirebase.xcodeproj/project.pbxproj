@@ -8,19 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		4C8CABEE543E2013AF23B196 /* Pods_RedSolcial_IosFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238CFD4F964D6334213843AF /* Pods_RedSolcial_IosFirebase.framework */; };
+		86291CE9218A2C960024D604 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86291CE8218A2C960024D604 /* GoogleService-Info.plist */; };
 		8689B183218112BF00B0FE9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8689B182218112BF00B0FE9E /* AppDelegate.swift */; };
 		8689B185218112BF00B0FE9E /* IniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8689B184218112BF00B0FE9E /* IniciarSesionViewController.swift */; };
 		8689B188218112BF00B0FE9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8689B186218112BF00B0FE9E /* Main.storyboard */; };
 		8689B18B218112BF00B0FE9E /* RedSolcial_IosFirebase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8689B189218112BF00B0FE9E /* RedSolcial_IosFirebase.xcdatamodeld */; };
 		8689B18D218112BF00B0FE9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8689B18C218112BF00B0FE9E /* Assets.xcassets */; };
 		8689B190218112BF00B0FE9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8689B18E218112BF00B0FE9E /* LaunchScreen.storyboard */; };
-		8689B198218114D700B0FE9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8689B197218114D700B0FE9E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		238CFD4F964D6334213843AF /* Pods_RedSolcial_IosFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedSolcial_IosFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD33E7821466287CC4968E8 /* Pods-RedSolcial_IosFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSolcial_IosFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedSolcial_IosFirebase/Pods-RedSolcial_IosFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		5C7497270F9DABE51BA197A4 /* Pods-RedSolcial_IosFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSolcial_IosFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedSolcial_IosFirebase/Pods-RedSolcial_IosFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		86291CE8218A2C960024D604 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8689B17F218112BF00B0FE9E /* RedSolcial_IosFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedSolcial_IosFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8689B182218112BF00B0FE9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8689B184218112BF00B0FE9E /* IniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		8689B18C218112BF00B0FE9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8689B18F218112BF00B0FE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8689B191218112BF00B0FE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8689B197218114D700B0FE9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +71,8 @@
 				8689B18C218112BF00B0FE9E /* Assets.xcassets */,
 				8689B18E218112BF00B0FE9E /* LaunchScreen.storyboard */,
 				8689B191218112BF00B0FE9E /* Info.plist */,
-				8689B197218114D700B0FE9E /* GoogleService-Info.plist */,
 				8689B189218112BF00B0FE9E /* RedSolcial_IosFirebase.xcdatamodeld */,
+				86291CE8218A2C960024D604 /* GoogleService-Info.plist */,
 			);
 			path = RedSolcial_IosFirebase;
 			sourceTree = "<group>";
@@ -156,7 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8689B190218112BF00B0FE9E /* LaunchScreen.storyboard in Resources */,
-				8689B198218114D700B0FE9E /* GoogleService-Info.plist in Resources */,
+				86291CE9218A2C960024D604 /* GoogleService-Info.plist in Resources */,
 				8689B18D218112BF00B0FE9E /* Assets.xcassets in Resources */,
 				8689B188218112BF00B0FE9E /* Main.storyboard in Resources */,
 			);
