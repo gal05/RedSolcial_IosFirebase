@@ -32,11 +32,13 @@ class IniciarSesionViewController: UIViewController {
                         print("Tenemos el siguiente Error:\(error!)")
                     }else{
                         print("El usuario fue creado exitosamente")
+                        self.performSegue(withIdentifier: "iniciarsesionsegue", sender: nil)
                     }
                 })
                 
             }else{
                 print("Inicio de sesion Exitoso")
+                self.performSegue(withIdentifier: "iniciarsesionsegue", sender: nil)
             }
         })
     }

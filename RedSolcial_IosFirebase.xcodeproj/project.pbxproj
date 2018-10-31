@@ -22,6 +22,7 @@
 		2DD33E7821466287CC4968E8 /* Pods-RedSolcial_IosFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSolcial_IosFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedSolcial_IosFirebase/Pods-RedSolcial_IosFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		5C7497270F9DABE51BA197A4 /* Pods-RedSolcial_IosFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSolcial_IosFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedSolcial_IosFirebase/Pods-RedSolcial_IosFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		86291CE8218A2C960024D604 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		865EC203218A3FD6007724AB /* RedSolcial_IosFirebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RedSolcial_IosFirebase.entitlements; sourceTree = "<group>"; };
 		8689B17F218112BF00B0FE9E /* RedSolcial_IosFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedSolcial_IosFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8689B182218112BF00B0FE9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8689B184218112BF00B0FE9E /* IniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 		8689B181218112BF00B0FE9E /* RedSolcial_IosFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				865EC203218A3FD6007724AB /* RedSolcial_IosFirebase.entitlements */,
 				8689B182218112BF00B0FE9E /* AppDelegate.swift */,
 				8689B184218112BF00B0FE9E /* IniciarSesionViewController.swift */,
 				8689B186218112BF00B0FE9E /* Main.storyboard */,
@@ -130,6 +132,11 @@
 					8689B17E218112BF00B0FE9E = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -373,6 +380,7 @@
 			baseConfigurationReference = 5C7497270F9DABE51BA197A4 /* Pods-RedSolcial_IosFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RedSolcial_IosFirebase/RedSolcial_IosFirebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B887638J4N;
 				INFOPLIST_FILE = RedSolcial_IosFirebase/Info.plist;
@@ -389,6 +397,7 @@
 			baseConfigurationReference = 2DD33E7821466287CC4968E8 /* Pods-RedSolcial_IosFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RedSolcial_IosFirebase/RedSolcial_IosFirebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B887638J4N;
 				INFOPLIST_FILE = RedSolcial_IosFirebase/Info.plist;
