@@ -1,4 +1,6 @@
 PODS:
+  - Firebase (5.10.0):
+    - Firebase/Core (= 5.10.0)
   - Firebase/Auth (5.10.0):
     - Firebase/CoreOnly
     - FirebaseAuth (= 5.0.4)
@@ -76,6 +78,7 @@ PODS:
   - nanopb/encode (0.3.8)
 
 DEPENDENCIES:
+  - Firebase
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
@@ -114,6 +117,6 @@ SPEC CHECKSUMS:
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
 
-PODFILE CHECKSUM: dfc9f20cb781ada2fbc30ffa5ab05e0a7c0a05d7
+PODFILE CHECKSUM: a68320a828b6a4a24bd36ecfe67bd4b3db383cbc
 
 COCOAPODS: 1.5.2

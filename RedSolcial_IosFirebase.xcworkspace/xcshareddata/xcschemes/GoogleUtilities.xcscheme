@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C9B22DB4FD9BD0D9E280772C70F6F242"
-               BuildableName = "Pods_RedSolcial_IosFirebase.framework"
-               BlueprintName = "Pods-RedSolcial_IosFirebase"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "2B2712EF6F96688D89D40EDE40CE8202"
+               BuildableName = "GoogleUtilities.framework"
+               BlueprintName = "GoogleUtilities"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,10 +47,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C9B22DB4FD9BD0D9E280772C70F6F242"
-            BuildableName = "Pods_RedSolcial_IosFirebase.framework"
-            BlueprintName = "Pods-RedSolcial_IosFirebase"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "2B2712EF6F96688D89D40EDE40CE8202"
+            BuildableName = "GoogleUtilities.framework"
+            BlueprintName = "GoogleUtilities"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>

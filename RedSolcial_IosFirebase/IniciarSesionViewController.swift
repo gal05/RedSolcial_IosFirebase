@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class IniciarSesionViewController: UIViewController {
 
@@ -20,6 +22,14 @@ class IniciarSesionViewController: UIViewController {
     }
     
     @IBAction func iniciarSesionTapped(_ sender: Any) {
+        Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!, completion: {(user,error) in
+            print("Intentamos Iniciar Sesion")
+            if(error != nil){
+                print("Tenemos el siguiente Error: \(error!)")
+            }else{
+                print("Inicio de sesion Exitoso")
+            }
+        })
     }
     
     override func didReceiveMemoryWarning() {

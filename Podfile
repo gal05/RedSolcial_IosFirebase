@@ -6,6 +6,7 @@ target 'RedSolcial_IosFirebase' do
   use_frameworks!
 
   # Pods for RedSolcial_IosFirebase
+  pod 'Firebase'
   pod 'Firebase/Core'
   pod 'FirebaseUI/Auth'
   pod 'Firebase/Database'
