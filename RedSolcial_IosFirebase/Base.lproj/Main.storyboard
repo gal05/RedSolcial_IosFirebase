@@ -74,10 +74,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="119.1904047976012"/>
         </scene>
-        <!--View Controller-->
+        <!--Snaps View Controller-->
         <scene sceneID="Tm4-IW-6Sb">
             <objects>
-                <viewController id="rSM-Vk-9Of" sceneMemberID="viewController">
+                <viewController id="rSM-Vk-9Of" customClass="SnapsViewController" customModule="RedSolcial_IosFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TmS-JH-PhA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,7 +85,11 @@
                         <viewLayoutGuide key="safeArea" id="ycH-VU-OLt"/>
                     </view>
                     <navigationItem key="navigationItem" id="u1L-I9-4sZ">
-                        <barButtonItem key="leftBarButtonItem" title="Cerrar Sesion" id="2Gy-V0-24F"/>
+                        <barButtonItem key="leftBarButtonItem" title="Cerrar Sesion" id="2Gy-V0-24F">
+                            <connections>
+                                <action selector="cerrarSesionTapped:" destination="rSM-Vk-9Of" id="b9P-U0-Y6K"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UN6-DC-9OA" userLabel="First Responder" sceneMemberID="firstResponder"/>
