@@ -7,5 +7,7 @@ target 'RedSolcial_IosFirebase' do
 
   # Pods for RedSolcial_IosFirebase
   pod 'Firebase/Core'
-  #pod 'FirebaseUI/Auth'
+  pod 'FirebaseUI/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
 end

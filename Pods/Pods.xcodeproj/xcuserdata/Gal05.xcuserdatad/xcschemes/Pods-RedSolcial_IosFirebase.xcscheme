@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "948CBB6709C9523A81663DE756DF488C"
+               BlueprintIdentifier = "C9B22DB4FD9BD0D9E280772C70F6F242"
                BuildableName = "Pods_RedSolcial_IosFirebase.framework"
                BlueprintName = "Pods-RedSolcial_IosFirebase"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "948CBB6709C9523A81663DE756DF488C"
+            BlueprintIdentifier = "C9B22DB4FD9BD0D9E280772C70F6F242"
             BuildableName = "Pods_RedSolcial_IosFirebase.framework"
             BlueprintName = "Pods-RedSolcial_IosFirebase"
             ReferencedContainer = "container:Pods.xcodeproj">
