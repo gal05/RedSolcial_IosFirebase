@@ -84,7 +84,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="ycH-VU-OLt"/>
                     </view>
-                    <navigationItem key="navigationItem" id="u1L-I9-4sZ"/>
+                    <navigationItem key="navigationItem" id="u1L-I9-4sZ">
+                        <barButtonItem key="leftBarButtonItem" title="Cerrar Sesion" id="2Gy-V0-24F"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UN6-DC-9OA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
