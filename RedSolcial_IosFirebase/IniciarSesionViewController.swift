@@ -22,10 +22,19 @@ class IniciarSesionViewController: UIViewController {
     }
     
     @IBAction func iniciarSesionTapped(_ sender: Any) {
-        Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!, completion: {(user,error) in
+        Auth.auth().signIn(withEmail: self.emailTextField.text!, password: self.passwordTextField.text!, completion: {(user,error) in
             print("Intentamos Iniciar Sesion")
             if(error != nil){
                 print("Tenemos el siguiente Error: \(error!)")
+                Auth.auth().createUser(withEmail: self.emailTextField.text!, password: self.passwordTextField.text!, completion: {(user,error)in
+                    print("Intetamos crear un usuario")
+                    if error != nil{
+                        print("Tenemos el siguiente Error:\(error!)")
+                    }else{
+                        print("El usuario fue creado exitosamente")
+                    }
+                })
+                
             }else{
                 print("Inicio de sesion Exitoso")
             }
