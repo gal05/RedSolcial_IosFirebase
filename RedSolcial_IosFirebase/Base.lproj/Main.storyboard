@@ -90,11 +90,34 @@
                                 <action selector="cerrarSesionTapped:" destination="rSM-Vk-9Of" id="b9P-U0-Y6K"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="LoS-P0-4Tf">
+                            <connections>
+                                <segue destination="LrO-xx-sDt" kind="show" id="llh-ek-XuV"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UN6-DC-9OA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1695" y="119"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2ib-CO-CyP">
+            <objects>
+                <viewController id="LrO-xx-sDt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RoO-fZ-rAt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="CnP-wd-4SK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qBK-if-ufi">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="n61-BX-T7S"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wXU-tM-EFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2505" y="119"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3rX-Wt-X00">
