@@ -101,10 +101,10 @@
             </objects>
             <point key="canvasLocation" x="1695" y="119"/>
         </scene>
-        <!--View Controller-->
+        <!--Imagen View Controller-->
         <scene sceneID="2ib-CO-CyP">
             <objects>
-                <viewController id="LrO-xx-sDt" sceneMemberID="viewController">
+                <viewController id="LrO-xx-sDt" customClass="ImagenViewController" customModule="RedSolcial_IosFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFit" id="RoO-fZ-rAt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,6 +126,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWD-Kp-1Bj">
                                 <rect key="frame" x="134.5" y="277" width="106" height="30"/>
                                 <state key="normal" title="Elegir Contacto"/>
+                                <connections>
+                                    <action selector="elegirContactoTapped:" destination="LrO-xx-sDt" eventType="touchUpInside" id="IXK-2F-fL7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -140,12 +143,37 @@
                         <viewLayoutGuide key="safeArea" id="CnP-wd-4SK"/>
                     </view>
                     <navigationItem key="navigationItem" id="qBK-if-ufi">
-                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="n61-BX-T7S"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="n61-BX-T7S">
+                            <connections>
+                                <action selector="camaraTapped:" destination="LrO-xx-sDt" id="YjZ-dN-vdr"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="descripcionTextField" destination="gKl-tm-bds" id="dah-sf-ARb"/>
+                        <outlet property="elegirContactoBoton" destination="jWD-Kp-1Bj" id="bqg-rf-33y"/>
+                        <outlet property="imageView" destination="G0h-ia-3Ob" id="yVm-rW-BiO"/>
+                        <segue destination="BUX-Jy-clp" kind="show" identifier="seleccionarContactoSegue" id="Cs3-G7-ujO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wXU-tM-EFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2505" y="119"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="c0L-Fx-nXo">
+            <objects>
+                <viewController id="BUX-Jy-clp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ohd-qJ-d7l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="QB3-Mu-ina"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gdQ-D2-sGQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3310" y="118"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3rX-Wt-X00">
