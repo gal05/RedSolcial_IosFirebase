@@ -32,13 +32,13 @@ class ImagenViewController: UIViewController,UIImagePickerControllerDelegate,UIN
     
     @IBAction func elegirContactoTapped(_ sender: Any) {
         elegirContactoBoton.isEnabled=false
-        let imagenesFolder = Storage.storage().reference().child("imagenes")
-        let imagenData = UIImagePNGRepresentation(imageView.image!, 0.1)!
+        let imagenesFolder = FIRStorage.storage().reference().child("imagenes")
+        let imagenData = UIImageJPEGRepresentation(imageView.image!, 0.1)!
         
-        imagenesFolder.child("\(NSUUID().uuidString).jpg").putData(imagenData, metadata: nil, completion:{(metadata,error)in
+        imagenesFolder.child("\(NSUUID().uuidString).jpg").put(imagenData, metadata: nil, completion:{(metadata,error)in
             print("Intentando Subir Imagen")
             if error != nil{
-                print("Ocurrio un error:\(error)")
+                print("Ocurrio un error:\(error!)")
             }else{
                 self.performSegue(withIdentifier: "seleccionarContactoSegue", sender: nil)
             }
