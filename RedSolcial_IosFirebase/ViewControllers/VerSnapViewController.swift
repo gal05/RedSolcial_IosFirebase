@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class VerSnapViewController: UIViewController {
 
@@ -20,6 +21,8 @@ class VerSnapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         Label.text? = snap.descrip
+        ImageView.sd_setImage(with: URL(string:snap.imagenURL))
+        
 
        
     }

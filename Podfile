@@ -11,4 +11,5 @@ target 'RedSolcial_IosFirebase' do
   pod 'FirebaseUI/Auth’,‘<4’
   pod 'Firebase/Database’, ‘<4’
   pod 'Firebase/Storage’,‘<4’
+  pod ‘SDWebImage’ 
 end

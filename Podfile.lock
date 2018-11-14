@@ -43,6 +43,9 @@ PODS:
     - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
   - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
   - GTMSessionFetcher/Core (1.2.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
 
 DEPENDENCIES:
   - Firebase (< 4)
@@ -50,6 +53,7 @@ DEPENDENCIES:
   - Firebase/Database (< 4)
   - Firebase/Storage (< 4)
   - FirebaseUI/Auth (< 4)
+  - SDWebImage
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -63,6 +67,7 @@ SPEC REPOS:
     - FirebaseUI
     - GoogleToolboxForMac
     - GTMSessionFetcher
+    - SDWebImage
 
 SPEC CHECKSUMS:
   Firebase: 4b66b5b59c43edac745b87f0c87e42cdd0279c13
@@ -75,7 +80,8 @@ SPEC CHECKSUMS:
   FirebaseUI: 6e99ff95e369f5858232e4f65bff215458fe8469
   GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
   GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
-PODFILE CHECKSUM: 39f3abbed5eb60944299b5eb0d7f5db9372868e6
+PODFILE CHECKSUM: f8028a22f21cfc4b8b0d50a0f5d2b6f934e85f23
 
 COCOAPODS: 1.5.2
