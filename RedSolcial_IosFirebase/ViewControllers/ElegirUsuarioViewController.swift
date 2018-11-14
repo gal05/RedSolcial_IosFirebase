@@ -18,9 +18,14 @@ class ElegirUsuarioViewController: UIViewController, UITableViewDataSource, UITa
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate=self
-        tableView.delegate=self
+        tableView.dataSource=self
         FIRDatabase.database().reference().child("usuario").observe(FIRDataEventType.childAdded, with: {(snapshot)in
-            print(snapshot)
+            let usuario = Usuario()
+            usuario.email=(snapshot.value as! NSDictionary)["email"]as! String
+            usuario.uid = snapshot.key
+            self.usuarios.append(usuario)
+            self.tableView.reloadData()
+            print(usuario)
         })
 
         // Do any additional setup after loading the view.
