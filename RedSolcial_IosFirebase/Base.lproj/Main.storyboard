@@ -77,11 +77,23 @@
         <!--Snaps View Controller-->
         <scene sceneID="Tm4-IW-6Sb">
             <objects>
-                <viewController id="rSM-Vk-9Of" customClass="SnapsViewController" customModule="RedSolcial_IosFirebase" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="rSM-Vk-9Of" customClass="SnapsViewController" customModule="RedSolcial_IosFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TmS-JH-PhA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bbp-ci-v8m">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bbp-ci-v8m" firstAttribute="top" secondItem="ycH-VU-OLt" secondAttribute="top" id="3BI-hQ-Wkw"/>
+                            <constraint firstItem="ycH-VU-OLt" firstAttribute="trailing" secondItem="bbp-ci-v8m" secondAttribute="trailing" id="koo-vz-Hpi"/>
+                            <constraint firstItem="bbp-ci-v8m" firstAttribute="leading" secondItem="ycH-VU-OLt" secondAttribute="leading" id="qeh-Fu-EUR"/>
+                            <constraint firstItem="ycH-VU-OLt" firstAttribute="bottom" secondItem="bbp-ci-v8m" secondAttribute="bottom" id="tWg-hj-b39"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ycH-VU-OLt"/>
                     </view>
                     <navigationItem key="navigationItem" id="u1L-I9-4sZ">
