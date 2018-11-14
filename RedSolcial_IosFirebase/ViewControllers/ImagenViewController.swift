@@ -40,7 +40,7 @@ class ImagenViewController: UIViewController,UIImagePickerControllerDelegate,UIN
             if error != nil{
                 print("Ocurrio un error:\(error!)")
             }else{
-                self.performSegue(withIdentifier: "seleccionarContactoSegue", sender: nil)
+                self.performSegue(withIdentifier: "seleccionarContactoSegue", sender: metadata?.downloadURL()!.absoluteString)
             }
         })
     }
@@ -54,6 +54,9 @@ class ImagenViewController: UIViewController,UIImagePickerControllerDelegate,UIN
 
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let siguienteVC = segue.destination as! ElegirUsuarioViewController
+        siguienteVC.imagenURL=sender as! String
+        siguienteVC.descrip = descripcionTextField.text!
 
     }
     
