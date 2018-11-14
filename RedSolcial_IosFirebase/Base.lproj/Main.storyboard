@@ -108,10 +108,38 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView1" destination="bbp-ci-v8m" id="RJE-op-Z7t"/>
+                        <segue destination="YaS-AY-qjr" kind="show" identifier="versnapsegue" id="hBP-rV-G2u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UN6-DC-9OA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1695" y="119"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HNI-Fo-5pD">
+            <objects>
+                <viewController id="YaS-AY-qjr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TBf-gw-27o">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Co2-9v-Va1">
+                                <rect key="frame" x="166" y="164" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="PBe-RA-QgM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JQX-sj-wJs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1689" y="798"/>
         </scene>
         <!--Imagen View Controller-->
         <scene sceneID="2ib-CO-CyP">
