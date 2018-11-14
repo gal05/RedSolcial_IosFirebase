@@ -32,6 +32,7 @@ class IniciarSesionViewController: UIViewController {
                         print("Tenemos el siguiente Error:\(error!)")
                     }else{
                         print("El usuario fue creado exitosamente")
+                        FIRDatabase.database().reference().child("usuario").child(user!.uid).child("email").setValue(user!.email)
                         self.performSegue(withIdentifier: "iniciarsesionsegue", sender: nil)
                     }
                 })
