@@ -117,29 +117,45 @@
             </objects>
             <point key="canvasLocation" x="1695" y="119"/>
         </scene>
-        <!--View Controller-->
+        <!--Ver Snap View Controller-->
         <scene sceneID="HNI-Fo-5pD">
             <objects>
-                <viewController id="YaS-AY-qjr" sceneMemberID="viewController">
+                <viewController id="YaS-AY-qjr" customClass="VerSnapViewController" customModule="RedSolcial_IosFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TBf-gw-27o">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Co2-9v-Va1">
-                                <rect key="frame" x="166" y="164" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Co2-9v-Va1">
+                                <rect key="frame" x="5" y="636" width="365" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dqs-HE-eXX">
+                                <rect key="frame" x="10" y="74" width="355" height="552"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dqs-HE-eXX" firstAttribute="centerX" secondItem="TBf-gw-27o" secondAttribute="centerX" id="0OL-mk-Wow"/>
+                            <constraint firstItem="Co2-9v-Va1" firstAttribute="leading" secondItem="PBe-RA-QgM" secondAttribute="leading" constant="5" id="JEF-4x-UyW"/>
+                            <constraint firstItem="PBe-RA-QgM" firstAttribute="bottom" secondItem="Co2-9v-Va1" secondAttribute="bottom" constant="10" id="MRb-ul-qMo"/>
+                            <constraint firstItem="dqs-HE-eXX" firstAttribute="top" secondItem="PBe-RA-QgM" secondAttribute="top" constant="10" id="NA4-43-Njn"/>
+                            <constraint firstItem="dqs-HE-eXX" firstAttribute="leading" secondItem="PBe-RA-QgM" secondAttribute="leading" constant="10" id="Pqw-54-Yh5"/>
+                            <constraint firstItem="PBe-RA-QgM" firstAttribute="trailing" secondItem="Co2-9v-Va1" secondAttribute="trailing" constant="5" id="bdI-Uc-KKJ"/>
+                            <constraint firstItem="Co2-9v-Va1" firstAttribute="top" secondItem="dqs-HE-eXX" secondAttribute="bottom" constant="10" id="egZ-zo-ChA"/>
+                            <constraint firstItem="PBe-RA-QgM" firstAttribute="trailing" secondItem="dqs-HE-eXX" secondAttribute="trailing" constant="10" id="lML-6h-VZW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PBe-RA-QgM"/>
                     </view>
+                    <connections>
+                        <outlet property="ImageView" destination="dqs-HE-eXX" id="ON3-Xu-5Ct"/>
+                        <outlet property="Label" destination="Co2-9v-Va1" id="9re-yO-auD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JQX-sj-wJs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1689" y="798"/>
+            <point key="canvasLocation" x="1695" y="964"/>
         </scene>
         <!--Imagen View Controller-->
         <scene sceneID="2ib-CO-CyP">

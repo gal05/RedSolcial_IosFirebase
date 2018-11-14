@@ -10,6 +10,7 @@
 		4C8CABEE543E2013AF23B196 /* Pods_RedSolcial_IosFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238CFD4F964D6334213843AF /* Pods_RedSolcial_IosFirebase.framework */; };
 		860B3E5E21936F3F00AE03D3 /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860B3E5D21936F3F00AE03D3 /* ImagenViewController.swift */; };
 		860B3E602193959A00AE03D3 /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860B3E5F2193959A00AE03D3 /* ElegirUsuarioViewController.swift */; };
+		860E2EAA219CBF0D002B6FA8 /* VerSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860E2EA9219CBF0D002B6FA8 /* VerSnapViewController.swift */; };
 		8612BCD0219C9A7C00C0D98D /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8612BCCF219C9A7C00C0D98D /* Usuario.swift */; };
 		86291CE9218A2C960024D604 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86291CE8218A2C960024D604 /* GoogleService-Info.plist */; };
 		865EC209218A498F007724AB /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865EC208218A498F007724AB /* SnapsViewController.swift */; };
@@ -28,6 +29,7 @@
 		5C7497270F9DABE51BA197A4 /* Pods-RedSolcial_IosFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSolcial_IosFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedSolcial_IosFirebase/Pods-RedSolcial_IosFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		860B3E5D21936F3F00AE03D3 /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
 		860B3E5F2193959A00AE03D3 /* ElegirUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegirUsuarioViewController.swift; sourceTree = "<group>"; };
+		860E2EA9219CBF0D002B6FA8 /* VerSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerSnapViewController.swift; sourceTree = "<group>"; };
 		8612BCCF219C9A7C00C0D98D /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		86291CE8218A2C960024D604 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		865EC203218A3FD6007724AB /* RedSolcial_IosFirebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RedSolcial_IosFirebase.entitlements; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				860B3E5D21936F3F00AE03D3 /* ImagenViewController.swift */,
 				860B3E5F2193959A00AE03D3 /* ElegirUsuarioViewController.swift */,
 				8689B184218112BF00B0FE9E /* IniciarSesionViewController.swift */,
+				860E2EA9219CBF0D002B6FA8 /* VerSnapViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				860B3E5E21936F3F00AE03D3 /* ImagenViewController.swift in Sources */,
 				8612BCD0219C9A7C00C0D98D /* Usuario.swift in Sources */,
 				8689B185218112BF00B0FE9E /* IniciarSesionViewController.swift in Sources */,
+				860E2EAA219CBF0D002B6FA8 /* VerSnapViewController.swift in Sources */,
 				8689B183218112BF00B0FE9E /* AppDelegate.swift in Sources */,
 				8689B18B218112BF00B0FE9E /* RedSolcial_IosFirebase.xcdatamodeld in Sources */,
 				860B3E602193959A00AE03D3 /* ElegirUsuarioViewController.swift in Sources */,
