@@ -23,12 +23,14 @@ class ImagenViewController: UIViewController,UIImagePickerControllerDelegate,UIN
     override func viewDidLoad() {
         super.viewDidLoad()
         imagenPicker.delegate=self
+        elegirContactoBoton.isEnabled=false
 
     }
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
         imageView.image=image
         imageView.backgroundColor=UIColor.clear
+        elegirContactoBoton.isEnabled=true
         imagenPicker.dismiss(animated: true, completion: nil)
     }
     
