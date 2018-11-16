@@ -32,6 +32,16 @@ class SnapsViewController: UIViewController, UITableViewDataSource, UITableViewD
             self.snaps.append(snap)
             self.tableView1.reloadData()
         })
+        FIRDatabase.database().reference().child("usuarios").child(FIRAuth.auth()!.currentUser!.uid).child("snaps").observe(FIRDataEventType.childRemoved, with: {(snapshot) in
+            var iterador = 0
+            for snap in self.snaps{
+                if snap.id == snapshot.key{
+                    self.snaps.remove(at: iterador)
+                }
+                iterador+=1
+            }
+            self.tableView1.reloadData()
+        })
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return snaps.count
