@@ -29,6 +29,7 @@ class SnapsViewController: UIViewController, UITableViewDataSource, UITableViewD
             snap.from = (snapshot.value as! NSDictionary)["from"] as! String
             snap.descrip = (snapshot.value as! NSDictionary)["descripcion"] as! String
             snap.id = snapshot.key
+            snap.imagenID = (snapshot.value as!  NSDictionary)["imagenID"] as! String
             self.snaps.append(snap)
             self.tableView1.reloadData()
         })

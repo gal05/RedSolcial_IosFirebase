@@ -26,6 +26,9 @@ class VerSnapViewController: UIViewController {
     }
     override func viewWillDisappear(_ animated: Bool) {
         FIRDatabase.database().reference().child("usuarios").child(FIRAuth.auth()!.currentUser!.uid).child("snaps").child(snap.id).removeValue()
+        FIRStorage.storage().reference().child("imagenes").child("\(snap.imagenID).jpg").delete{(error) in
+            print("se elimino la imagen correctamente")
+        }
     }
 
     override func didReceiveMemoryWarning() {
